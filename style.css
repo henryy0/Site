@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    padding: 10px;
+  }
+  
+  #menu a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  #logo h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  #contact a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Cor de fundo do retângulo de contato */
+    color: #333; /* Cor do texto do retângulo de contato */
+    text-decoration: none;
+    border-radius: 20px; /* Borda arredondada do retângulo de contato */
+  }
+  
+  #main {
+    display: flex;
+  }
+  
+  #description {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #slideshow-container {
+    flex: 1;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+  }
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
