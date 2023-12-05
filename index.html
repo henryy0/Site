@@ -2,47 +2,49 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Dog's</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog's World</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="header">
     <div id="menu">
       <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About Us</a>
+      <a href="#">Serviços</a>
+      <a href="#">Sobre Nós</a>
     </div>
     <div id="logo">
-      <h1>Dog's</h1>
+      <img src="img/Logo.png" alt="Logo" class="logo-img">
     </div>
     <div id="contact">
-      <a href="#" class="rounded-button">Contact Us</a>
+      <a href="#" class="rounded-button">Contate-nos</a>
     </div>
   </div>
   <div id="main">
     <div id="description">
-      <h2>Saiba tudo sobre cachorros</h2>
-      <p>
-        Os cachorros são animais domésticos muito populares. Eles são companheiros leais e amorosos, e podem ser uma ótima fonte de alegria para suas famílias.
-      </p>
-      <a href="#">Leia mais</a>
+      <h2>Bem-vindo ao Mundo dos Cães</h2>
+      <div class="caption">
+        <p id="dogDescription">Explore o maravilhoso mundo dos cães. Saiba sobre diferentes raças, dicas de cuidados e encontre seu novo amigo peludo.</p>
+        <a href="#" class="rounded-button">Leia Mais</a>
+      </div>
     </div>
     <div id="slideshow-container">
-      <div class="slide">
-        <img src="Golden.png" alt="Cachorro 1">
-        <div class="caption">
+      <div class="slide" data-bg-color="#5e8c7d">
+        <img src="img/Golden.png" alt="Golden Retriever">
+        <div class="slide-caption">
           <h2>Golden Retriever</h2>
-          <p>O Golden Retriever é conhecido por ser amigável e inteligente. Além disso, é um cachorro fofo e leal.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="Labrador.png" alt="Cachorro 2">
-        <div class="caption">
-          <h2>Labrador</h2>
-          <p>O Labrador é um cachorro energético e brincalhão. Sua personalidade amigável o torna uma escolha popular como animal de estimação.</p>
+          <p>O Golden Retriever é conhecido por ser amigável e inteligente. Além disso, é um companheiro fofo e leal.</p>
         </div>
       </div>
       
+      <div class="slide" data-bg-color="#aedff2">
+        <img src="img/Labrador.png" alt="Labrador">
+        <div class="slide-caption">
+          <h2>Labrador</h2>
+          <p>O Labrador é um cachorro enérgico e brincalhão. Sua personalidade amigável o torna uma escolha popular como animal de estimação.</p>
+        </div>
+      </div>
+      <!-- Adicione mais slides conforme necessário -->
     </div>
   </div>
   <div id="footer">
